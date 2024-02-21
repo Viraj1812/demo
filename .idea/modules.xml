@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/admin/melos_admin.iml" filepath="$PROJECT_DIR$/apps/admin/melos_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/counter_lints/melos_counter_lints.iml" filepath="$PROJECT_DIR$/packages/counter_lints/melos_counter_lints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/counter_widgets/melos_counter_widgets.iml" filepath="$PROJECT_DIR$/packages/counter_widgets/melos_counter_widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/user/melos_user.iml" filepath="$PROJECT_DIR$/apps/user/melos_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_demo.iml" filepath="$PROJECT_DIR$/melos_demo.iml" />
+    </modules>
+  </component>
+</project>

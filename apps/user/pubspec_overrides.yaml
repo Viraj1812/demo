@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: counter_widgets
+dependency_overrides:
+  counter_widgets:
+    path: ../../packages/counter_widgets

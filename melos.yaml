@@ -1,0 +1,24 @@
+name: demo
+
+packages:
+  - apps/**
+  - packages/**
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
+scripts:
+  formatting:check: melos exec -- dart format --set-exit-if-changed .
+
+  analyze: melos exec -- dart analyze --fatal-infos
+
+  admin:
+    run: melos exec -- flutter run lib/main.dart
+    select-package:
+      scope: 'admin'
+
+  user:
+    run: melos exec -- flutter run lib/main.dart
+    select-package:
+      scope: 'user'
